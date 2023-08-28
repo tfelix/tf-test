@@ -4,3 +4,7 @@ resource "null_resource" "default" {
     command = "echo 'Hello World'"
   }
 }
+
+output "project_number" {
+  value = "123"
+}
